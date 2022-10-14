@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.assignment1.StudentTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-10-14T00:15:11" hostname="DESKTOP-NE3ARTR" time="0.14">
+  <properties/>
+  <testcase name="getSetAge_PassedAValidAge_ReturnsAge()" classname="org.assignment1.StudentTests" time="0.03"/>
+  <testcase name="getSetId_PassedAValidId_ReturnsId()" classname="org.assignment1.StudentTests" time="0.001"/>
+  <testcase name="getUsername_ValidNameAndAge_ReturnsCorrectUsername()" classname="org.assignment1.StudentTests" time="0.015"/>
+  <testcase name="getSetModulesRegisteredFor_PassedAValidArrayListOfModules_ReturnsModulesRegisteredFor()" classname="org.assignment1.StudentTests" time="0.002"/>
+  <testcase name="getSetCourses_PassedAValidArrayListOfCourses_ReturnsCourses()" classname="org.assignment1.StudentTests" time="0.002"/>
+  <testcase name="getSetName_PassedAValidName_ReturnsName()" classname="org.assignment1.StudentTests" time="0.001"/>
+  <testcase name="getSetDob_PassedAValidDob_ReturnsDob()" classname="org.assignment1.StudentTests" time="0.084"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
