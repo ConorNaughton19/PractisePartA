@@ -28,7 +28,7 @@ public class CourseProgrammeTests {
         Module testModuleOne = null;
         Module testModuleTwo = null;
         Module testModuleThree = null;
-        ArrayList<Module> testModuleList = new ArrayList<>(Arrays.asList(testModuleOne, testModuleTwo, testModuleThree));
+        ArrayList<Module> testModuleList = new ArrayList<>(Arrays.asList(testsModuleOne, testModuleTwo, testModuleThree));
 
         courseProgramme.setModules(testModuleList);
         ArrayList<Module> result = courseProgramme.getModules();
