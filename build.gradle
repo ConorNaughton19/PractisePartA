@@ -4,8 +4,8 @@ plugins {
     id 'war'
 }
 
-group 'org.assignment1'
-version '1.0-SNAPSHOT'
+//group 'org.assignment1'
+//version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -15,6 +15,7 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             groupId = 'com.github.ConorNaughton19'
+            group 'org.assignment1'
             artifactId = 'PractisePartA'
             version = '1.0-SNAPSHOT'
 
