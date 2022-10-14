@@ -1,5 +1,7 @@
 plugins {
     id 'java'
+    id 'maven-publish'
+    id 'war'
 }
 
 group 'org.assignment1'
@@ -7,6 +9,18 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.github.ConorNaughton19'
+            artifactId = 'PractisePartA'
+            version = '1.0-SNAPSHOT'
+
+            from components.java
+        }
+    }
 }
 
 dependencies {
