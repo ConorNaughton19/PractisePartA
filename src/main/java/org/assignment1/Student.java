@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Student {
 
-    private String name, username;
+    private String name;
     private int age;
     private DateTime dob;
     private long id;
@@ -18,8 +18,8 @@ public class Student {
     }
 
     public String getUsername() {
-        username = name + String.valueOf(age);
-        return username;
+        var s = name + age;
+        return s;
     }
 
     public String getName() {

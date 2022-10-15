@@ -7,14 +7,15 @@ public class CourseProgramme {
     private String courseName;
     private ArrayList<Module> modules;
     private ArrayList<Student> enrolledStudents;
-    private DateTime academicStartDate, academicEndDate;
+    private DateTime academicStartDate;
+    private DateTime academicEndDate;
 
     public CourseProgramme(String courseName, ArrayList<Module> modules, ArrayList<Student> enrolledStudents, DateTime academicStartDate, DateTime academicEndDate) {
         this.courseName = courseName;
         this.modules = modules;
-        this.enrolledStudents = enrolledStudents;
         this.academicStartDate = academicStartDate;
         this.academicEndDate = academicEndDate;
+        this.enrolledStudents = enrolledStudents;
     }
 
     public String getCourseName() {
